@@ -11,7 +11,6 @@ To Run This Module , First You Should Create A Mysql Database Called 'e_voting'.
 Then Import 'db.sql' File on this database, To Create 'election' Table and insert sample records.
 
 1.
-//***************************************************
 //First API (CreateElection)
 To Run First API , make a request to "http://Server/e_voting/election/create_election.php" with a json input like :
 
@@ -31,7 +30,6 @@ input:
 This will Create A New Record In 'election' Table.
 
 2.
-//***************************************************
 //Second API (EditElection)
 make a request to "http://Server/e_voting/election/create_election.php" with a json input like :
 
@@ -53,7 +51,6 @@ input:
 This will Edit record with id=4 in election table.
 
 3.
-//***************************************************
 //Third API(RemoveElection)
 to delete an election , make a request to "http://Server/e_voting/election/remove_election.php" and specify election id with a json input like :
 
@@ -65,7 +62,6 @@ input:
 This will remove record with id=4 from election table , if election is not running (running election : start_time < cuurent_time < end_time )
 
 4.
-//***************************************************
 //Fourth API(IncremenetNumberOfVotes)
 to vote to an election , make a request to "http://Server/e_voting/election/increament_number_of_votes.php" and specify election id with a json input like :
 
@@ -77,7 +73,6 @@ input:
 This will Increase the value of the 'number_of_votes' column by 1.
 
 5.
-//***************************************************
 //Fifth API(getListOfChoices)
 to get list of an election choices , make a request to "http://Server/e_voting/election/get_list_of_choices.php" and specify election id with a json input like :
 
@@ -89,13 +84,11 @@ input:
 This will return list of choices.
 
 6.
-//***************************************************
 //Sixth API(getAllElections)
 to get all elections , make a request to "http://Server/e_voting/election/get_all_elections.php"
 
 
 7.
-//***************************************************
 //Seventh API(electionExists)
 to check whether election exist or not , make a request to "http://Server/e_voting/election/election_exists.php" and specify election id with a json input like :
 
@@ -107,7 +100,6 @@ input:
 This Will specify whether election exist or not.
 
 8.
-//***************************************************
 //Eighth API(getElectionDetails)
 to get an election , make a request to "http://Server/e_voting/election/get_election_detail.php" and specify election id with a json input like :
 
