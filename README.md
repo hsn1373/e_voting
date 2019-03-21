@@ -20,7 +20,7 @@
 
 make a request to `http://Server/e_voting/election/create_election.php` with a json input like :
 
-```javascript
+```
 {
     "title": "election4",
     "start_time": "2014-01-01 00:00:00",
@@ -41,7 +41,7 @@ This will Create A New Record In 'election' Table.
 
 make a request to `http://Server/e_voting/election/edit_election.php` with a json input like :
 
-```javascript
+```
 {
     "id": "4"
     "title": "election4",
@@ -64,7 +64,7 @@ This will Edit record with id=4 in election table.
 
 to delete an election , make a request to `http://Server/e_voting/election/remove_election.php` and specify election id with a json input like :
 
-```javascript
+```
 {
     "id" : "4"
 }
@@ -77,7 +77,7 @@ This will remove record with id=4 from election table , if election is not runni
 
 to vote to an election , make a request to `http://Server/e_voting/election/increament_number_of_votes.php` and specify election id with a json input like :
 
-```javascript
+```
 {
     "id" : "4"
 }
@@ -89,7 +89,7 @@ This will Increase the value of the 'number_of_votes' column by 1.
 
 to get list of an election choices , make a request to `http://Server/e_voting/election/get_list_of_choices.php` and specify election id with a json input like :
 
-```javascript
+```
 {
     "id" : "4"
 }
@@ -106,7 +106,7 @@ to get all elections , make a request to `http://Server/e_voting/election/get_al
 
 to check whether election exist or not , make a request to `http://Server/e_voting/election/election_exists.php` and specify election id with a json input like :
 
-```javascript
+```
 {
     "id" : "4"
 }
@@ -118,7 +118,7 @@ This Will specify whether election exist or not.
 
 to get an election , make a request to `http://Server/e_voting/election/get_election_detail.php` and specify election id with a json input like :
 
-```javascript
+```
 {
     "id" : "4"
 }
