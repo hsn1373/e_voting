@@ -73,7 +73,7 @@ to delete an election , make a request to `http://Server/e_voting/election/remov
 This will remove record with id=4 from election table , if election is not running 
 > running election : start_time < current_time < end_time 
 
-### 4.IncremenetNumberOfVotes API
+### 4.IncreamentNumberOfVotes API
 
 to vote to an election , make a request to `http://Server/e_voting/election/increament_number_of_votes.php` and specify election id with a json input like :
 
