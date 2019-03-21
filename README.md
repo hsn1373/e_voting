@@ -39,7 +39,7 @@ This will Create A New Record In 'election' Table.
 
 ### 2.EditElection API
 
-make a request to `http://Server/e_voting/election/create_election.php` with a json input like :
+make a request to `http://Server/e_voting/election/edit_election.php` with a json input like :
 
 ```javascript
 {
